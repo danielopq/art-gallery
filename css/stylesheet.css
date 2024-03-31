@@ -17,13 +17,13 @@
 }
 body{
 	width: 100vw;
-	height: 100%;
+	height: 2554px;
 	margin: 0px;
 	padding:0px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: flex-start;
+	justify-content: space-between;
 }
 h1{
 	width: 514px;
@@ -40,7 +40,25 @@ p{
 	font: 300 22px/32px 'Outfit';
 }
 
-
+.button{
+	width: 260px;
+	height: 72px;
+	display:flex;
+	color: white;
+	font: 900 20px/72px 'BigShouldersDisplay';
+	text-align: center;
+}
+.button-text{
+	width: 204px;
+	height: inherit;
+	letter-spacing: 3.64px;
+	background-color: black;
+}
+.button-icon{
+	width: 56px;
+	height: inherit;
+	background: #D5966C center/8px 24px no-repeat;
+}
 /*################################### HEADER ###################################*/
 header{
 	width: 1440px;
@@ -50,35 +68,50 @@ header{
 }
 
 header > div{
-	border: solid 1px red;
+	height: inherit;
 	padding-top: 189px;
 }
 
 #header-title{
 	width: 450px;
-	height: 800px;
 	background-color: black;
 	mix-blend-mode:difference;
 }
 #header-title h1{
-	margin-left: 183px;
+	margin: 0px 0px 0px 183px;
 	color: white;
 }
 
 #header-mainContent{
 	width: 350px;
-	height: 296px;
 	display:flex;
 	flex-direction: column;
 	align-items: flex-start;
 	color: #444444;
 	margin-left: 475px;
 }
+#header-mainContent p{
+	width: 350px;
+	height: 160px;
+}
+#location-bt{
+	margin-top: 64px;
+}
+#location-bt-arrow{
+	background-image: url("../images/icon-arrow-right.svg");
+}
+/*################################### MAIN ###################################*/
+main{
+	width: 1110px;
+	height: 1150px;
+	border:solid 1px red;
+}
+/*################################### FOOTER ###################################*/
 
-#ourLocation-bt{
-	width: 260px;
-	height: 72px;
-	background-color: solid 1px black;
+footer{
+	width: 1440px;
+	height: 244px;
+	background-color: black;
 }
 
 
