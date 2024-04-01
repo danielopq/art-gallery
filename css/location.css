@@ -90,13 +90,39 @@ footer {
 	}
 	/*------------------ MAP ------------------*/
 	#main-map {
-		width: inherit;
-		height: 600px;
 		background: url("../images/tablet/image-map@2x.png") center/cover no-repeat;
 	}
 	#back-bt {
-		width: 264px;
 		margin-left: 39px;
+	}
+	/*------------------ INFO ------------------*/
+	#main-info {
+		height: 436px;
+		padding: 84px 39px;
+	}
+	#main-info h2 {
+		width: 223px;
+		height: 100px;
+	}
+	#info-about {
+		width: 398px;
+		height: 268px;
+		margin-left: 68px;
+	}
+	#info-about h4 {
+		height: 32px;
+	}
+	#about-address {
+		height: 268px;
+		margin: 20px 0px 0px 0px;
+	}
+	#about-details {
+		height: 112px;
+		margin: 20px 0px 0px 0px;
+	}
+	/*------------------ FOOTER ------------------*/
+	#footer-logo {
+		background: url("../images/logo-dark.svg") 0% 0%/110px 40px no-repeat !important;
 	}
 }
 /*############################################################################*/

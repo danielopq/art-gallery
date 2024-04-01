@@ -106,6 +106,40 @@ footer > * {
 	cursor: pointer;
 }
 /*############################################################################*/
+/*############################## TABLET VERSION ##############################*/
+/*############################################################################*/
+@media screen and (max-width:962px) {
+	h2 {
+		font: 900 55px/50px 'BigShouldersDisplay';
+	}
+	h4 {
+		font: 900 32px/32px 'BigShouldersDisplay';
+	}
+	.mainTextMedium {
+		font: 300 18px/28px 'Outfit';
+	}
+	.mainTextSmall {
+		font: 300 16px/26px 'Outfit';
+	}
+	/*------------------------ FOOTER ------------------------*/
+	footer {
+		width: 100vw;
+		height: 216px;
+		justify-content:center;
+		padding: 0px 40px;
+	}
+	footer > * {
+		height: 104px;
+	}
+	#footer-logo {
+		width: 110px;
+	}
+	#footer-text {
+		width: 281px;
+		margin: 0px 133px 0px 65px;
+	}
+}
+/*############################################################################*/
 /*############################## MOBILE VERSION ##############################*/
 /*############################################################################*/
 @media screen and (max-width:480px) {
