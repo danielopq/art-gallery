@@ -17,7 +17,7 @@
 }
 body{
 	width: 100vw;
-	height: 2554px;
+	height: 100%;
 	margin: 0px;
 	padding:0px;
 	display: flex;
@@ -26,20 +26,18 @@ body{
 	justify-content: space-between;
 }
 h1{
-	width: 514px;
-	height: 176px;
 	font: 900 96px/88px 'BigShouldersDisplay';
 }
-
-p{
-	padding: 0px;
-	margin: 0px;
+h3{
+	font: 900 60px/60px 'BigShouldersDisplay';
 }
 
-.mainText{
+.mainTextMedium{
 	font: 300 22px/32px 'Outfit';
 }
-
+.mainTextSmall{
+	font: 300 18px/28px 'Outfit';
+}
 .button{
 	width: 260px;
 	height: 72px;
@@ -52,7 +50,7 @@ p{
 	width: 204px;
 	height: inherit;
 	letter-spacing: 3.64px;
-	background-color: black;
+	background-color: #151515;
 }
 .button-icon{
 	width: 56px;
@@ -74,10 +72,12 @@ header > div{
 
 #header-title{
 	width: 450px;
-	background-color: black;
+	background-color: #151515;
 	mix-blend-mode:difference;
 }
 #header-title h1{
+	width: 514px;
+	height: 176px;
 	margin: 0px 0px 0px 183px;
 	color: white;
 }
@@ -93,6 +93,7 @@ header > div{
 #header-mainContent p{
 	width: 350px;
 	height: 160px;
+	margin: 0px;
 }
 #location-bt{
 	margin-top: 64px;
@@ -107,32 +108,114 @@ main{
 	grid-template-rows: 400px 313px 377px;
 	grid-template-areas: "yourDay pic01 pic01" "pic02 pic02 pic03" "pic02 pic02 come";
 	grid-gap: 30px;
-	border:solid 1px red;
+	margin-top: 180px;
 }
 main > div{
-	border:solid 1px red;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: left;
+}
+main p{
+	margin: 32px 0px 0px 0px;
+	
+}
+main h3{
+	margin: 0px;
 }
 #main-yourDay{
 	grid-area: yourDay;
 }
+#main-yourDay *{
+	width: 350px;
+}
+#main-yourDay h3{
+	height: 120px;
+	color:#151515;
+}
+#main-yourDay p{
+	height: 128px;
+	color:#444444;
+}
+#main-yourDay *{
+	width: 350px;
+}
 #main-pic01{
 	grid-area: pic01;
+	background: url("../images/desktop/image-grid-1@2x.jpg") center/cover no-repeat;
 }
 #main-pic02{
 	grid-area: pic02;
+	background: url("../images/desktop/image-grid-2@2x.jpg") center/cover no-repeat;
 }
 #main-pic03{
 	grid-area: pic03;
+	background-image: url("../images/desktop/image-grid-3.jpg");
 }
 #main-come{
 	grid-area: come;
+	align-items: center;
+	background-color: #151515;
+	color:white;
+}
+#main-come *{
+	width: 350px;
+}
+#main-come h3{
+	height: 120px;
+}
+#main-come p{
+	height: 96px;
 }
 /*################################### FOOTER ###################################*/
 
 footer{
 	width: 1440px;
 	height: 244px;
-	background-color: black;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	background-color: #151515;
+	margin-top: 180px;
+}
+
+footer > *{
+	height: 84px;
+}
+
+#footer-logo{
+	width: 160px;
+	background: url("../images/logo-light.svg") 0% 0%/160px no-repeat;
+}
+
+#footer-text{
+	width: 430px;
+	text-align: left;
+	color:white;
+	margin: 0px 140px 0px 280px;
+}
+
+#footer-media{
+	width: 100px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+#footer-media > div{
+	width: 20px;
+	height: 20px;
+}
+#facebook{
+	background: url("../images/icon-facebook.svg") center/20px no-repeat;
+}
+#instagram{
+	background: url("../images/icon-instagram.svg") center/20px no-repeat;
+}
+#twitter{
+	background: url("../images/icon-twitter.svg") center/20px no-repeat;
 }
 
 
