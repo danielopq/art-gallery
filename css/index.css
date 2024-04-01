@@ -119,6 +119,46 @@ footer {
 	fill: #D5966C;
 }
 /*############################################################################*/
+/*############################## TABLET VERSION ##############################*/
+/*############################################################################*/
+@media screen and (max-width:962px) {
+/*------------------------ HEADER ------------------------*/
+header {
+	width: 100vw;
+	height: 700px;
+	flex-direction: column;
+	background: url("../images/tablet/image-hero.jpg") 0%/437px no-repeat;
+	padding: 145px 0px 0px 389px;
+}
+header > div {
+	padding-top: 0px;
+	width: 339px !important;
+}
+#header-title {
+	height: 130px;
+	background-color: transparent;
+	mix-blend-mode:normal;
+}
+#header-title h1 {
+	width: 339px;
+	height: inherit;
+	margin: 0px 0px 0px 0px;
+	color: #151515;
+}
+#header-mainContent {
+	height: 232px;
+	margin: 48px 0px;
+}
+#header-mainContent p {
+	width: 350px;
+	height: 160px;
+	margin: 0px;
+}
+#location-bt {
+	margin-top: 48px;
+}
+}
+/*############################################################################*/
 /*############################## MOBILE VERSION ##############################*/
 /*############################################################################*/
 @media screen and (max-width:480px) {

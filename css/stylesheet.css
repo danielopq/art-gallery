@@ -109,6 +109,9 @@ footer > * {
 /*############################## TABLET VERSION ##############################*/
 /*############################################################################*/
 @media screen and (max-width:962px) {
+	h1 {
+		font: 900 70px/65px 'BigShouldersDisplay';
+	}
 	h2 {
 		font: 900 55px/50px 'BigShouldersDisplay';
 	}
@@ -125,7 +128,7 @@ footer > * {
 	footer {
 		width: 100vw;
 		height: 216px;
-		justify-content:center;
+		justify-content: center;
 		padding: 0px 40px;
 	}
 	footer > * {
