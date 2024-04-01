@@ -12,69 +12,66 @@
 	font-weight: 300;
 }
 /*################################### GENERAL ###################################*/
-*{
+* {
 	box-sizing: border-box;
 }
-body{
+body {
 	width: 100vw;
 	height: 100%;
 	margin: 0px;
-	padding:0px;
+	padding: 0px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
 }
-h1{
+h1 {
 	font: 900 96px/88px 'BigShouldersDisplay';
 }
-h2{
+h2 {
 	font: 900 70px/70px 'BigShouldersDisplay';
 }
-h3{
+h3 {
 	font: 900 60px/60px 'BigShouldersDisplay';
 }
-h4{
+h4 {
 	font: 900 36px/36px 'BigShouldersDisplay';
 }
-.mainTextMedium{
+.mainTextMedium {
 	font: 300 22px/32px 'Outfit';
 }
-.mainTextSmall{
+.mainTextSmall {
 	font: 300 18px/28px 'Outfit';
 }
-.button{
+.button {
 	height: 72px;
-	display:flex;
+	display: flex;
 	color: white;
 	font: 900 20px/72px 'BigShouldersDisplay';
 	text-align: center;
 }
-
 .button:hover {
-	cursor:pointer;
+	cursor: pointer;
 }
-.button:hover .button-text{
+.button:hover .button-text {
 	background-color: #D5966C;
 }
-.button:hover .button-icon{
+.button:hover .button-icon {
 	background-color: #151515;
 }
-.button-text{
+.button-text {
 	width: 100%;
 	height: inherit;
 	letter-spacing: 3.64px;
 	background-color: #151515;
 }
-.button-icon{
+.button-icon {
 	width: 56px;
 	height: inherit;
 	background: #D5966C center/8px 24px no-repeat;
 }
-
 /*################################### FOOTER ###################################*/
-
-footer{
+footer {
 	width: 1440px;
 	height: 244px;
 	display: flex;
@@ -82,49 +79,75 @@ footer{
 	align-items: center;
 	justify-content: center;
 }
-
-footer > *{
+footer > * {
 	height: 84px;
 }
-
-#footer-logo{
+#footer-logo {
 	width: 160px;
 	background: url("../images/logo-light.svg") 0% 0%/160px no-repeat;
 }
-
-#footer-text{
+#footer-text {
 	width: 430px;
 	text-align: left;
 	margin: 0px 140px 0px 280px;
 }
-
-#footer-media{
+#footer-media {
 	width: 100px;
 	display: flex;
 	flex-direction: row;
 	align-items: flex-start;
 	justify-content: space-between;
 }
-
-#footer-media > div{
+#footer-media > div {
 	width: 20px;
 	height: 20px;
 }
-.media-icon{
+.media-icon {
 	cursor: pointer;
 }
-
 /*############################################################################*/
 /*############################## MOBILE VERSION ##############################*/
 /*############################################################################*/
 @media screen and (max-width:480px) {
-h1{
-	font: 900 60px/55px 'BigShouldersDisplay';
-}
-h3{
-	font: 900 50px/45px 'BigShouldersDisplay';
-}
-.mainTextMedium{
-	font: 300 18px/28px 'Outfit';
-}
+	h1 {
+		font: 900 60px/55px 'BigShouldersDisplay';
+	}
+	h3 {
+		font: 900 50px/45px 'BigShouldersDisplay';
+	}
+	.mainTextMedium {
+		font: 300 18px/28px 'Outfit';
+	}
+	.mainTextSmall {
+		font: 300 16px/26px 'Outfit';
+	}
+	/*------------------------ FOOTER ------------------------*/
+	footer {
+		width: 100vw;
+		height: 336px;
+		flex-direction: column;
+		align-items: left;
+		justify-content: center;
+		margin-top: 120px;
+	}
+	footer > *{
+		width: 311px !important;
+	}
+	#footer-logo {
+		height: 40px;
+		background: url("../images/logo-light.svg") left/110px 40px no-repeat !important;
+	}
+	#footer-text {
+		height: 104px;
+		margin: 38px 0px;
+	}
+	
+	#footer-media {
+	width: 100px;
+	height: 20px;
+	justify-content: flex-start;
+	}
+	#footer-media > div {
+		margin-right: 22px;
+	}
 }

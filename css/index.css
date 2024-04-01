@@ -1,223 +1,208 @@
 @charset "utf-8";
-
 /*################################### HEADER ###################################*/
-header{
+header {
 	width: 1440px;
 	height: 800px;
 	display: flex;
 	background: url("../images/desktop/image-hero.jpg") 450px 0px/540px no-repeat;
 }
-
-header > div{
+header > div {
 	height: inherit;
 	padding-top: 189px;
 }
-
-#header-title{
+#header-title {
 	width: 450px;
 	background-color: #151515;
-	mix-blend-mode:difference;
+	mix-blend-mode: difference;
 }
-#header-title h1{
+#header-title h1 {
 	width: 514px;
 	height: 176px;
 	margin: 0px 0px 0px 183px;
 	color: white;
 }
-
-#header-mainContent{
+#header-mainContent {
 	width: 350px;
-	display:flex;
+	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	color: #444444;
 	margin-left: 475px;
 }
-#header-mainContent p{
+#header-mainContent p {
 	width: 350px;
 	height: 160px;
 	margin: 0px;
 }
-#location-bt{
+#location-bt {
 	margin-top: 64px;
 	width: 260px;
 }
-#location-bt-arrow{
+#location-bt-arrow {
 	background-image: url("../images/icon-arrow-right.svg");
 }
 /*################################### MAIN ###################################*/
-main{
+main {
 	display: grid;
 	grid-template-columns: 445px 190px 445px;
 	grid-template-rows: 400px 313px 377px;
-	grid-template-areas: "yourDay pic01 pic01" "pic02 pic02 pic03" "pic02 pic02 come";
+	grid-template-areas: "yourDay pic01 pic01""pic02 pic02 pic03""pic02 pic02 come";
 	grid-gap: 30px;
 	margin-top: 180px;
 }
-main > div{
+main > div {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	text-align: left;
 }
-main p{
+main p {
 	margin: 32px 0px 0px 0px;
-	
 }
-main h3{
+main h3 {
 	margin: 0px;
 }
-#main-yourDay{
+#main-yourDay {
 	grid-area: yourDay;
 }
-#main-yourDay *{
+#main-yourDay * {
 	width: 350px;
 }
-#main-yourDay h3{
+#main-yourDay h3 {
 	width: 340px !important;
 	height: 120px;
-	color:#151515;
+	color: #151515;
 }
-#main-yourDay p{
+#main-yourDay p {
 	height: 128px;
-	color:#444444;
+	color: #444444;
 }
-#main-pic01{
+#main-pic01 {
 	grid-area: pic01;
 	background: url("../images/desktop/image-grid-1@2x.jpg") center/cover no-repeat;
 }
-#main-pic02{
+#main-pic02 {
 	grid-area: pic02;
 	background: url("../images/desktop/image-grid-2@2x.jpg") center/cover no-repeat;
 }
-#main-pic03{
+#main-pic03 {
 	grid-area: pic03;
 	background-image: url("../images/desktop/image-grid-3.jpg");
 }
-#main-come{
+#main-come {
 	grid-area: come;
 	align-items: center;
 	background-color: #151515;
-	color:white;
+	color: white;
 }
-#main-come *{
+#main-come * {
 	width: 350px;
 }
-#main-come h3{
+#main-come h3 {
 	height: 120px;
 }
-#main-come p{
+#main-come p {
 	height: 96px;
 }
 /*################################### FOOTER ###################################*/
-
-footer{
+footer {
 	background-color: #151515;
 	margin-top: 180px;
 }
-#footer-logo{
+#footer-logo {
 	background: url("../images/logo-light.svg") 0% 0%/160px no-repeat;
 }
-
-#footer-text{
-	color:white;
+#footer-text {
+	color: white;
 }
-.media-icon:hover path{
+.media-icon:hover path {
 	fill: #D5966C;
 }
 /*############################################################################*/
 /*############################## MOBILE VERSION ##############################*/
 /*############################################################################*/
 @media screen and (max-width:480px) {
-/*------------------------ HEADER ------------------------*/
-header{
-	width: 100vw;
-	height: 630px;
-	flex-direction: column;
-	background: url("../images/mobile/image-hero.jpg")top/375px no-repeat;
-}
-
-header > div{
-	width: 343px!important;
-	padding-top: 0px;
-	margin-left: auto;
-}
-
-#header-title{
-	height: 110px;
-	background-color: white;
-	margin: 272px auto 0px;
-}
-#header-title h1{
-	width: inherit;
-	height: inherit;
-	margin: 0px;
-	color: black;
-}
-
-#header-mainContent{
-	height: 216px;
-	margin: 32px auto 0px;
-}
-#header-mainContent p{
-	width: inherit;
-	height: 112px;
-}
-	
-#location-bt{
-	margin-top: 32px;
-}
-
-/*------------------------ MAIN ------------------------*/
-main{
-	display: grid;
-	grid-template-columns: 343px;
-	grid-template-rows: 320px 223px 480px 200px 293px;
-	grid-template-areas: "pic01""yourDay""pic02""pic03""come";
-	grid-gap: 32px;
-	margin-top: 120px;
-}
-main p{
-	margin: 21px 0px 0px 0px;
-}
-
-#main-yourDay *{
-	width: 343px;
-}
-#main-yourDay h3{
-	height: 90px;
-	padding-right: 60px;
-}
-#main-yourDay p{
-	height: 112px;
-	font: 300 18px/28px 'Outfit';
-	padding-right: 30px;
-}
-#main-pic01{
-	background: url("../images/mobile/image-grid-1.jpg") center/343px no-repeat;
-}
-#main-pic02{
-	background: url("../images/mobile/image-grid-2.jpg") center/480px no-repeat;
-}
-#main-pic03{
-	background-image: url("../images/mobile/image-grid-3.jpg");
-}
-#main-come{
-	align-items: center;
-	background-color: #151515;
-	color:white;
-}
-#main-come *{
-	width: 295px;
-}
-#main-come h3{
-	height: 90px;
-	margin: 0px;
-}
-#main-come p{
-	height: 84px;
-	margin: 24px 0px 0px 0px;
-}
-	
-	
+	/*------------------------ HEADER ------------------------*/
+	header {
+		width: 100vw;
+		height: 630px;
+		flex-direction: column;
+		background: url("../images/mobile/image-hero.jpg")top/375px no-repeat;
+	}
+	header > div {
+		width: 343px !important;
+		padding-top: 0px;
+		margin-left: auto;
+	}
+	#header-title {
+		height: 110px;
+		background-color: white;
+		margin: 272px auto 0px;
+	}
+	#header-title h1 {
+		width: inherit;
+		height: inherit;
+		margin: 0px;
+		color: black;
+	}
+	#header-mainContent {
+		height: 216px;
+		margin: 32px auto 0px;
+	}
+	#header-mainContent p {
+		width: inherit;
+		height: 112px;
+	}
+	#location-bt {
+		margin-top: 32px;
+	}
+	/*------------------------ MAIN ------------------------*/
+	main {
+		display: grid;
+		grid-template-columns: 343px;
+		grid-template-rows: 320px 223px 480px 200px 293px;
+		grid-template-areas: "pic01""yourDay""pic02""pic03""come";
+		grid-gap: 32px;
+		margin-top: 120px;
+	}
+	main p {
+		margin: 21px 0px 0px 0px;
+	}
+	#main-yourDay * {
+		width: 343px;
+	}
+	#main-yourDay h3 {
+		height: 90px;
+		padding-right: 60px;
+	}
+	#main-yourDay p {
+		height: 112px;
+		font: 300 18px/28px 'Outfit';
+		padding-right: 30px;
+	}
+	#main-pic01 {
+		background: url("../images/mobile/image-grid-1.jpg") center/343px no-repeat;
+	}
+	#main-pic02 {
+		background: url("../images/mobile/image-grid-2.jpg") center/480px no-repeat;
+	}
+	#main-pic03 {
+		background-image: url("../images/mobile/image-grid-3.jpg");
+	}
+	#main-come {
+		align-items: center;
+		background-color: #151515;
+		color: white;
+	}
+	#main-come * {
+		width: 295px;
+	}
+	#main-come h3 {
+		height: 90px;
+		margin: 0px;
+	}
+	#main-come p {
+		height: 84px;
+		margin: 24px 0px 0px 0px;
+	}
 }
