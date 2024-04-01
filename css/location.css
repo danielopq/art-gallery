@@ -1,0 +1,92 @@
+/*################################### MAIN ###################################*/
+main{
+	width: 1440px;
+	height: 1148px;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: flex-start;
+}
+/*------------------ MAP ------------------*/
+#main-map{
+	width: inherit;
+	height: 600px;
+	background: url("../images/desktop/image-map.png") center/1440px no-repeat;
+}
+#back-bt{
+	width: 264px;
+	margin-left: 156px;
+}
+#back-bt-arrow{
+	background-image: url("../images/icon-arrow-left.svg");
+}
+/*------------------ INFO ------------------*/
+#main-info{
+	width: inherit;
+	height: 548px;
+	background-color: #151515;
+	padding: 116px 165px;
+	display:flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+#main-info h2{
+	width: 350px;
+	height: 140px;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+}
+#info-about{
+	width: 540px;
+	height: 316px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-left: 220px;
+}
+#info-about *{
+	width: inherit;
+	text-align: left;
+}
+#info-about h4{
+	color: #D5966C;
+	margin: 0px;
+	padding: 0px;
+}
+#info-about p{
+	color: white;
+}
+#about-address{
+	margin: 24px 0px 0px 0px;
+}
+#about-details{
+	margin: 32px 0px 0px 0px;
+}
+/*################################### FOOTER ###################################*/
+
+footer{
+	background-color: #D5966C;
+}
+#footer-logo{
+	background: url("../images/logo-dark.svg") 0% 0%/160px no-repeat;
+}
+
+#footer-text{
+	color:#151515;
+}
+
+.media-icon path{
+	fill:#151515;
+}
+
+.media-icon:hover path{
+	fill: white;
+}
+/*############################################################################*/
+/*############################## MOBILE VERSION ##############################*/
+/*############################################################################*/
+@media screen and (max-width:480px) {
+	
+}
