@@ -147,12 +147,12 @@ header > div {
 }
 #header-mainContent {
 	height: 232px;
-	margin: 48px 0px;
+	margin: 0px;
 }
 #header-mainContent p {
-	width: 350px;
-	height: 160px;
-	margin: 0px;
+	width: inherit;
+	height: 112px;
+	margin: 48px 0px 0px 0px;
 }
 #location-bt {
 	margin-top: 48px;
