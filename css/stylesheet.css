@@ -28,10 +28,15 @@ body{
 h1{
 	font: 900 96px/88px 'BigShouldersDisplay';
 }
+h2{
+	font: 900 70px/70px 'BigShouldersDisplay';
+}
 h3{
 	font: 900 60px/60px 'BigShouldersDisplay';
 }
-
+h4{
+	font: 900 36px/36px 'BigShouldersDisplay';
+}
 .mainTextMedium{
 	font: 300 22px/32px 'Outfit';
 }
