@@ -50,6 +50,16 @@ h4{
 	font: 900 20px/72px 'BigShouldersDisplay';
 	text-align: center;
 }
+
+.button:hover {
+	cursor:pointer;
+}
+.button:hover .button-text{
+	background-color: #D5966C;
+}
+.button:hover .button-icon{
+	background-color: #151515;
+}
 .button-text{
 	width: 100%;
 	height: inherit;
@@ -99,4 +109,7 @@ footer > *{
 #footer-media > div{
 	width: 20px;
 	height: 20px;
+}
+.media-icon{
+	cursor: pointer;
 }
