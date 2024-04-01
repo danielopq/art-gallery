@@ -1,32 +1,33 @@
 /*################################### MAIN ###################################*/
-main{
+main {
 	width: 1440px;
-	height: 1148px;
+	height: 100%;
 	display: flex;
 	flex-direction: column;
 	align-content: center;
 	justify-content: flex-start;
 }
 /*------------------ MAP ------------------*/
-#main-map{
+#main-map {
 	width: inherit;
 	height: 600px;
 	background: url("../images/desktop/image-map.png") center/1440px no-repeat;
 }
-#back-bt{
+#back-bt {
 	width: 264px;
 	margin-left: 156px;
 }
-#back-bt-arrow{
+#back-bt-arrow {
 	background-image: url("../images/icon-arrow-left.svg");
 }
 /*------------------ INFO ------------------*/
-#main-info{
+
+#main-info {
 	width: inherit;
 	height: 548px;
 	background-color: #151515;
 	padding: 116px 165px;
-	display:flex;
+	display: flex;
 	flex-direction: row;
 	align-items: flex-start;
 	justify-content: flex-start;
@@ -38,7 +39,7 @@ main{
 	margin: 0px;
 	padding: 0px;
 }
-#info-about{
+#info-about {
 	width: 540px;
 	height: 316px;
 	display: flex;
@@ -46,47 +47,97 @@ main{
 	align-items: flex-start;
 	margin-left: 220px;
 }
-#info-about *{
+#info-about * {
 	width: inherit;
 	text-align: left;
 }
-#info-about h4{
+#info-about h4 {
 	color: #D5966C;
 	margin: 0px;
 	padding: 0px;
 }
-#info-about p{
+#info-about p {
 	color: white;
 }
-#about-address{
+#about-address {
 	margin: 24px 0px 0px 0px;
 }
-#about-details{
+#about-details {
 	margin: 32px 0px 0px 0px;
 }
-/*################################### FOOTER ###################################*/
 
-footer{
+/*################################### FOOTER ###################################*/
+footer {
 	background-color: #D5966C;
 }
-#footer-logo{
+#footer-logo {
 	background: url("../images/logo-dark.svg") 0% 0%/160px no-repeat;
 }
-
-#footer-text{
-	color:#151515;
+#footer-text {
+	color: #151515;
 }
-
-.media-icon path{
-	fill:#151515;
+.media-icon path {
+	fill: #151515;
 }
-
-.media-icon:hover path{
+.media-icon:hover path {
 	fill: white;
 }
 /*############################################################################*/
 /*############################## MOBILE VERSION ##############################*/
 /*############################################################################*/
 @media screen and (max-width:480px) {
-	
+	/*------------------ MAIN ------------------*/
+	main {
+		width: 100vw;
+		height: 100%;
+	}
+	/*------------------ MAP ------------------*/
+	#main-map {
+		height: 550px;
+		background: url("../images/mobile/image-map@2x.png") center/cover no-repeat;
+	}
+	#back-bt {
+		margin-left: 0px;
+	}
+	/*------------------ INFO ------------------*/
+	#main-info {
+		height: 493px;
+		padding: 0px 0px;
+		flex-direction: column;
+		align-items: center;
+		padding-top: 52px;
+	}
+	#main-info > *{
+		width: 343px !important;
+	}
+	#main-info h2 {
+		height: 45px;
+		margin: 0px;
+	}
+	#info-about {
+		height: 296px;
+		margin: 48px 0px 0px 0px;
+	}
+	#info-about h4 {
+		height: 32px;
+		margin: 0px;
+	}
+	#info-about p {
+		color: white;
+	}
+	#about-address {
+		height: 84px;
+		margin: 20px 0px 0px 0px;
+	}
+	#about-details {
+		height: 140px;
+		margin: 20px 0px 0px 0px;
+	}
+	/*------------------ FOOTER ------------------*/
+	footer {
+		margin: 0px;
+	}
+	#footer-logo {
+		background: url("../images/logo-dark.svg")left/110px 40px no-repeat !important;
+	}
 }
