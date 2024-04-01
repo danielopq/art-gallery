@@ -57,116 +57,7 @@ h3{
 	height: inherit;
 	background: #D5966C center/8px 24px no-repeat;
 }
-/*################################### HEADER ###################################*/
-header{
-	width: 1440px;
-	height: 800px;
-	display: flex;
-	background: url("../images/desktop/image-hero.jpg") 450px 0px/540px no-repeat;
-}
 
-header > div{
-	height: inherit;
-	padding-top: 189px;
-}
-
-#header-title{
-	width: 450px;
-	background-color: #151515;
-	mix-blend-mode:difference;
-}
-#header-title h1{
-	width: 514px;
-	height: 176px;
-	margin: 0px 0px 0px 183px;
-	color: white;
-}
-
-#header-mainContent{
-	width: 350px;
-	display:flex;
-	flex-direction: column;
-	align-items: flex-start;
-	color: #444444;
-	margin-left: 475px;
-}
-#header-mainContent p{
-	width: 350px;
-	height: 160px;
-	margin: 0px;
-}
-#location-bt{
-	margin-top: 64px;
-}
-#location-bt-arrow{
-	background-image: url("../images/icon-arrow-right.svg");
-}
-/*################################### MAIN ###################################*/
-main{
-	display: grid;
-	grid-template-columns: 445px 190px 445px;
-	grid-template-rows: 400px 313px 377px;
-	grid-template-areas: "yourDay pic01 pic01" "pic02 pic02 pic03" "pic02 pic02 come";
-	grid-gap: 30px;
-	margin-top: 180px;
-}
-main > div{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	text-align: left;
-}
-main p{
-	margin: 32px 0px 0px 0px;
-	
-}
-main h3{
-	margin: 0px;
-}
-#main-yourDay{
-	grid-area: yourDay;
-}
-#main-yourDay *{
-	width: 350px;
-}
-#main-yourDay h3{
-	height: 120px;
-	color:#151515;
-}
-#main-yourDay p{
-	height: 128px;
-	color:#444444;
-}
-#main-yourDay *{
-	width: 350px;
-}
-#main-pic01{
-	grid-area: pic01;
-	background: url("../images/desktop/image-grid-1@2x.jpg") center/cover no-repeat;
-}
-#main-pic02{
-	grid-area: pic02;
-	background: url("../images/desktop/image-grid-2@2x.jpg") center/cover no-repeat;
-}
-#main-pic03{
-	grid-area: pic03;
-	background-image: url("../images/desktop/image-grid-3.jpg");
-}
-#main-come{
-	grid-area: come;
-	align-items: center;
-	background-color: #151515;
-	color:white;
-}
-#main-come *{
-	width: 350px;
-}
-#main-come h3{
-	height: 120px;
-}
-#main-come p{
-	height: 96px;
-}
 /*################################### FOOTER ###################################*/
 
 footer{
@@ -176,7 +67,6 @@ footer{
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-	background-color: #151515;
 	margin-top: 180px;
 }
 
@@ -192,7 +82,6 @@ footer > *{
 #footer-text{
 	width: 430px;
 	text-align: left;
-	color:white;
 	margin: 0px 140px 0px 280px;
 }
 
@@ -208,14 +97,3 @@ footer > *{
 	width: 20px;
 	height: 20px;
 }
-#facebook{
-	background: url("../images/icon-facebook.svg") center/20px no-repeat;
-}
-#instagram{
-	background: url("../images/icon-instagram.svg") center/20px no-repeat;
-}
-#twitter{
-	background: url("../images/icon-twitter.svg") center/20px no-repeat;
-}
-
-
