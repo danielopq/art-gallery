@@ -209,6 +209,7 @@ footer {
 /*------------------------ FOOTER ------------------------*/
 	#footer-logo {
 		background: url("../images/logo-light.svg") 0% 0%/110px 40px no-repeat !important;
+		margin-top: 120px !important;
 	}
 }
 /*############################################################################*/
