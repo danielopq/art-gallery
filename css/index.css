@@ -69,9 +69,9 @@ main h3 {
 	width: 350px;
 }
 #main-yourDay h3 {
-	width: 340px !important;
 	height: 120px;
 	color: #151515;
+	padding-right: 20px;
 }
 #main-yourDay p {
 	height: 128px;
@@ -122,41 +122,90 @@ footer {
 /*############################## TABLET VERSION ##############################*/
 /*############################################################################*/
 @media screen and (max-width:962px) {
-/*------------------------ HEADER ------------------------*/
-header {
-	width: 100vw;
-	height: 700px;
-	flex-direction: column;
-	background: url("../images/tablet/image-hero.jpg") 0%/437px no-repeat;
-	padding: 145px 0px 0px 389px;
-}
-header > div {
-	padding-top: 0px;
-	width: 339px !important;
-}
-#header-title {
-	height: 130px;
-	background-color: transparent;
-	mix-blend-mode:normal;
-}
-#header-title h1 {
-	width: 339px;
-	height: inherit;
-	margin: 0px 0px 0px 0px;
-	color: #151515;
-}
-#header-mainContent {
-	height: 232px;
-	margin: 0px;
-}
-#header-mainContent p {
-	width: inherit;
-	height: 112px;
-	margin: 48px 0px 0px 0px;
-}
-#location-bt {
-	margin-top: 48px;
-}
+	/*------------------------ HEADER ------------------------*/
+	header {
+		width: 100vw;
+		height: 700px;
+		flex-direction: column;
+		background: url("../images/tablet/image-hero.jpg") 0%/437px no-repeat;
+		padding: 145px 0px 0px 389px;
+	}
+	header > div {
+		padding-top: 0px;
+		width: 339px !important;
+	}
+	#header-title {
+		height: 130px;
+		background-color: transparent;
+		mix-blend-mode: normal;
+	}
+	#header-title h1 {
+		width: 339px;
+		height: inherit;
+		margin: 0px 0px 0px 0px;
+		color: #151515;
+	}
+	#header-mainContent {
+		height: 232px;
+		margin: 0px;
+	}
+	#header-mainContent p {
+		width: inherit;
+		height: 112px;
+		margin: 48px 0px 0px 0px;
+	}
+	#location-bt {
+		margin-top: 48px;
+	}
+	/*------------------------ MAIN ------------------------*/
+	main {
+		grid-template-columns: 280px 118px 280px;
+		grid-template-rows: 400px 313px 396px;
+		grid-template-areas: "yourDay pic01 pic01""pic02 pic02 pic03""pic02 pic02 come";
+		grid-gap: 11px;
+		margin-top: 120px;
+	}
+	
+	main p {
+		margin: 32px 0px 0px 0px;
+	}
+	#main-yourDay{
+		margin-top: 36px;
+		justify-content: flex-start;
+	}
+	#main-yourDay * {
+		width: 223px;
+	}
+	#main-yourDay h3 {
+		height: 135px;
+		padding-right: 40px;
+		margin: 0px 0px 0px 0px;
+	}
+	#main-yourDay p {
+		height: 128px;
+		margin: 24px 0px 0px 0px;
+	}
+	#main-pic01 {
+		background: url("../images/tablet/image-grid-1.jpg") center/cover no-repeat;
+	}
+	#main-pic02 {
+		background: url("../images/tablet/image-grid-2.jpg") center/cover no-repeat;
+	}
+	#main-pic03 {
+		background-image: url("../images/tablet/image-grid-3.jpg");
+	}
+	#main-come {
+		justify-content: center;
+	}
+	#main-come * {
+		width: 223px;
+	}
+	#main-come h3 {
+		height: 90px;
+	}
+	#main-come p {
+		height: 112px;
+	}
 }
 /*############################################################################*/
 /*############################## MOBILE VERSION ##############################*/
@@ -245,7 +294,6 @@ header > div {
 		height: 84px;
 		margin: 24px 0px 0px 0px;
 	}
-	
 	/*------------------------ FOOTER ------------------------*/
 	#footer-logo {
 		background: url("../images/logo-light.svg") left/110px 40px no-repeat !important;
