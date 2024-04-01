@@ -113,3 +113,18 @@ footer > *{
 .media-icon{
 	cursor: pointer;
 }
+
+/*############################################################################*/
+/*############################## MOBILE VERSION ##############################*/
+/*############################################################################*/
+@media screen and (max-width:480px) {
+h1{
+	font: 900 60px/55px 'BigShouldersDisplay';
+}
+h3{
+	font: 900 50px/45px 'BigShouldersDisplay';
+}
+.mainTextMedium{
+	font: 300 18px/28px 'Outfit';
+}
+}

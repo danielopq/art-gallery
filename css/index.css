@@ -74,15 +74,13 @@ main h3{
 	width: 350px;
 }
 #main-yourDay h3{
+	width: 340px !important;
 	height: 120px;
 	color:#151515;
 }
 #main-yourDay p{
 	height: 128px;
 	color:#444444;
-}
-#main-yourDay *{
-	width: 350px;
 }
 #main-pic01{
 	grid-area: pic01;
@@ -153,8 +151,6 @@ header > div{
 #header-title h1{
 	width: inherit;
 	height: inherit;
-	font-size: 60px !important;
-	line-height: 55px !important;
 	margin: 0px;
 	color: black;
 }
@@ -166,8 +162,62 @@ header > div{
 #header-mainContent p{
 	width: inherit;
 	height: 112px;
-	font-size: 18px !important;
-	line-height: 28px !important;
+}
+	
+#location-bt{
+	margin-top: 32px;
 }
 
+/*------------------------ MAIN ------------------------*/
+main{
+	display: grid;
+	grid-template-columns: 343px;
+	grid-template-rows: 320px 223px 480px 200px 293px;
+	grid-template-areas: "pic01""yourDay""pic02""pic03""come";
+	grid-gap: 32px;
+	margin-top: 120px;
+}
+main p{
+	margin: 21px 0px 0px 0px;
+}
+
+#main-yourDay *{
+	width: 343px;
+}
+#main-yourDay h3{
+	height: 90px;
+	padding-right: 60px;
+}
+#main-yourDay p{
+	height: 112px;
+	font: 300 18px/28px 'Outfit';
+	padding-right: 30px;
+}
+#main-pic01{
+	background: url("../images/mobile/image-grid-1.jpg") center/343px no-repeat;
+}
+#main-pic02{
+	background: url("../images/mobile/image-grid-2.jpg") center/480px no-repeat;
+}
+#main-pic03{
+	background-image: url("../images/mobile/image-grid-3.jpg");
+}
+#main-come{
+	align-items: center;
+	background-color: #151515;
+	color:white;
+}
+#main-come *{
+	width: 295px;
+}
+#main-come h3{
+	height: 90px;
+	margin: 0px;
+}
+#main-come p{
+	height: 84px;
+	margin: 24px 0px 0px 0px;
+}
+	
+	
 }
