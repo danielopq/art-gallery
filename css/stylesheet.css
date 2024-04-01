@@ -44,7 +44,6 @@ h4{
 	font: 300 18px/28px 'Outfit';
 }
 .button{
-	width: 260px;
 	height: 72px;
 	display:flex;
 	color: white;
@@ -52,7 +51,7 @@ h4{
 	text-align: center;
 }
 .button-text{
-	width: 204px;
+	width: 100%;
 	height: inherit;
 	letter-spacing: 3.64px;
 	background-color: #151515;
