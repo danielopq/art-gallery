@@ -17,8 +17,12 @@ Responsive Frontend development for an art gallery website. It is optimized for 
 
 ### Screenshot
 
-- Desktop version: [https://github.com/danielopq/art-gallery/blob/main/screenshots/desktop.jpg]
-- Mobile version: [https://github.com/danielopq/art-gallery/main/screenshots/mobile.jpg]
+- Index desktop version: [https://github.com/danielopq/art-gallery/blob/main/screenshots/index-desktop.jpg]
+- Index tablet version: [https://github.com/danielopq/art-gallery/main/screenshots/index-tablet.jpg]
+- Index mobile version: [https://github.com/danielopq/art-gallery/main/screenshots/index-mobile.jpg]
+- Location desktop version: [https://github.com/danielopq/art-gallery/blob/main/screenshots/location-desktop.jpg]
+- Location tablet version: [https://github.com/danielopq/art-gallery/main/screenshots/location-tablet.jpg]
+- Locacion mobile version: [https://github.com/danielopq/art-gallery/main/screenshots/location-mobile.jpg]
 
 
 

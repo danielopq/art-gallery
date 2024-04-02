@@ -121,7 +121,8 @@ footer {
 /*############################################################################*/
 /*############################## TABLET VERSION ##############################*/
 /*############################################################################*/
-@media screen and (max-width:962px) {
+
+@media (min-width: 768px) and (max-width: 1023px) {
 	/*------------------------ HEADER ------------------------*/
 	header {
 		width: 100vw;
@@ -206,10 +207,9 @@ footer {
 	#main-come p {
 		height: 112px;
 	}
-/*------------------------ FOOTER ------------------------*/
+	/*------------------ FOOTER ------------------*/
 	#footer-logo {
 		background: url("../images/logo-light.svg") 0% 0%/110px 40px no-repeat !important;
-		margin-top: 120px !important;
 	}
 }
 /*############################################################################*/
@@ -278,7 +278,7 @@ footer {
 		background: url("../images/mobile/image-grid-1.jpg") center/343px no-repeat;
 	}
 	#main-pic02 {
-		background: url("../images/mobile/image-grid-2.jpg") center/480px no-repeat;
+		background: url("../images/mobile/image-grid-2@2x.jpg") center/480px no-repeat;
 	}
 	#main-pic03 {
 		background-image: url("../images/mobile/image-grid-3.jpg");
