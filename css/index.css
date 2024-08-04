@@ -59,7 +59,7 @@ main > div {
 main p {
 	margin: 32px 0px 0px 0px;
 }
-main h3 {
+main h2 {
 	margin: 0px;
 }
 #main-yourDay {
@@ -68,7 +68,7 @@ main h3 {
 #main-yourDay * {
 	width: 350px;
 }
-#main-yourDay h3 {
+#main-yourDay h2 {
 	height: 120px;
 	color: #151515;
 	padding-right: 20px;
@@ -98,7 +98,7 @@ main h3 {
 #main-come * {
 	width: 350px;
 }
-#main-come h3 {
+#main-come h2 {
 	height: 120px;
 }
 #main-come p {
@@ -177,7 +177,7 @@ footer {
 	#main-yourDay * {
 		width: 223px;
 	}
-	#main-yourDay h3 {
+	#main-yourDay h2 {
 		height: 135px;
 		padding-right: 40px;
 		margin: 0px 0px 0px 0px;
@@ -201,7 +201,7 @@ footer {
 	#main-come * {
 		width: 223px;
 	}
-	#main-come h3 {
+	#main-come h2 {
 		height: 90px;
 	}
 	#main-come p {
@@ -265,7 +265,7 @@ footer {
 	#main-yourDay * {
 		width: 343px;
 	}
-	#main-yourDay h3 {
+	#main-yourDay h2 {
 		height: 90px;
 		padding-right: 60px;
 	}
@@ -291,7 +291,7 @@ footer {
 	#main-come * {
 		width: 295px;
 	}
-	#main-come h3 {
+	#main-come h2 {
 		height: 90px;
 		margin: 0px;
 	}
