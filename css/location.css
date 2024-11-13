@@ -77,8 +77,11 @@ footer {
 .media-icon path {
 	fill: #151515;
 }
-.media-icon:hover path {
-	fill: white;
+
+@media(hover:hover){
+	.media-icon:hover path {
+		fill: white;
+	}
 }
 /*############################################################################*/
 /*############################## TABLET VERSION ##############################*/
