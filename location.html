@@ -6,12 +6,6 @@
 <title>Art gallery - Location</title>
 <link rel="stylesheet" href="css/stylesheet.css">
 <link rel="stylesheet" href="css/location.css">
-<script language="javascript">
-	window.onload = start;
-	function start(){
-		document.getElementById("back-bt").addEventListener('click',function(){window.location.href = "index.html";});
-	}
-</script>
 </head>
 <body>
 	<!--################################### MAIN ###################################-->
@@ -54,4 +48,9 @@
 	</div>
 </footer>
 </body>
+<script>
+	(() => {
+		document.getElementById("back-bt").addEventListener('click',function(){window.location.href = "index.html";});
+	})()
+</script>
 </html>
