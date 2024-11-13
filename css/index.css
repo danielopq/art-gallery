@@ -44,8 +44,9 @@ header > div {
 }
 /*################################### MAIN ###################################*/
 main {
+	width: 1110px;
 	display: grid;
-	grid-template-columns: 445px 190px 445px;
+	grid-template-columns: 445px 160px 445px;
 	grid-template-rows: 400px 313px 377px;
 	grid-template-areas: "yourDay pic01 pic01""pic02 pic02 pic03""pic02 pic02 come";
 	grid-gap: 30px;
