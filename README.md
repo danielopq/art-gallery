@@ -1,5 +1,3 @@
-
-
 ## Table of contents
 
 - [Overview](#overview)
@@ -7,24 +5,23 @@
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 
 ## Overview
 
-Responsive Frontend development for an art gallery website. Optimized for desktop (1440px) and mobile (375-480px). The elements are set according to the provided images. Built with HTML, CSS, and JavaScript. No frameworks were used.
+Developed a fully responsive frontend for an art gallery website, designed to deliver a seamless experience across a variety of devices. To achieve fluid layout transitions, I implemented CSS Grid templates, optimizing content flow and alignment for desktops, tablets, and mobile screens. Each element's position and style were meticulously crafted to align with the provided design mockups, ensuring an accurate visual representation.
+
+This project was built from the ground up using HTML, and CSS, without relying on frameworks, to maintain complete control over the codebase and optimize performance.
 
 ### Screenshot
 
-- Index desktop version: [https://github.com/danielopq/art-gallery/blob/main/screenshots/index-desktop.jpg]
-- Index tablet version: [https://github.com/danielopq/art-gallery/blob/main/screenshots/index-tablet.jpg]
-- Index mobile version: [https://github.com/danielopq/art-gallery/blob/main/screenshots/index-mobile.jpg]
-- Location desktop version: [https://github.com/danielopq/art-gallery/blob/main/screenshots/location-desktop.jpg]
-- Location tablet version: [https://github.com/danielopq/art-gallery/blob/main/screenshots/location-tablet.jpg]
-- Locacion mobile version: [https://github.com/danielopq/art-gallery/blob/main/screenshots/location-mobile.jpg]
-
-
+- [Index desktop version](https://github.com/danielopq/art-gallery/blob/main/screenshots/index-desktop.jpg)
+- [Index tablet version](https://github.com/danielopq/art-gallery/blob/main/screenshots/index-tablet.jpg)
+- [Index mobile version](https://github.com/danielopq/art-gallery/blob/main/screenshots/index-mobile.jpg)
+- [Location desktop version](https://github.com/danielopq/art-gallery/blob/main/screenshots/location-desktop.jpg)
+- [Location tablet version](https://github.com/danielopq/art-gallery/blob/main/screenshots/location-tablet.jpg)
+- [Locacion mobile version](https://github.com/danielopq/art-gallery/blob/main/screenshots/location-mobile.jpg)
 
 ### Links
 
@@ -32,7 +29,7 @@ Responsive Frontend development for an art gallery website. Optimized for deskto
 
 ## My process
 
-I created the website entirely for the desktop version. Once all of the elements were in place and met the design requirements, I adapted it to the mobile version using just a CSS media query.
+I initially developed the website with a focus on the desktop version, ensuring all elements were positioned accurately and fully aligned with the specified design requirements. Once the desktop layout was finalized and approved, I adapted the website for tablet and mobile devices by incorporating responsive design principles using CSS media queries. This approach allowed me to efficiently adjust layouts, font sizes, and interactive elements to provide an optimal user experience on smaller screens without altering the original HTML structure.
 
 ### Built with
 
@@ -47,5 +44,6 @@ I created the website entirely for the desktop version. Once all of the elements
 
 I am a focused and dedicated professional with a strong educational foundation and hands-on experience in programming and web development. My expertise in PHP, SQL, JavaScript, HTML, CSS, JAVA and other modern web technologies enables me to build engaging, efficient, and visually appealing websites that meet both user needs and business goals.
 
+- Personal website: [https://danielmartinez.co.uk]
 - linkedin - [www.linkedin.com/in/danielmartinezduque]
 
