@@ -1,7 +1,7 @@
 @charset "utf-8";
 @font-face {
 	font-family: 'BigShouldersDisplay';
-	src: url("../fonts/BigShouldersDisplay.woff") format('woff');
+	src: url("../fonts/BigShouldersDisplay-Black.woff") format('woff');
 	font-style: bold;
 	font-weight: 900;
 }
@@ -26,6 +26,8 @@ body {
 	justify-content: space-between;
 }
 h1 {
+	padding: 0px;
+	margin: 0px;
 	font: 900 96px/88px 'BigShouldersDisplay';
 }
 h2 {

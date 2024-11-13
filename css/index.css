@@ -18,7 +18,8 @@ header > div {
 #header-title h1 {
 	width: 514px;
 	height: 176px;
-	margin: 0px 0px 0px 183px;
+	padding-right: 60px;
+	margin-left: 165px;
 	color: white;
 }
 #header-mainContent {
@@ -147,6 +148,7 @@ footer {
 	#header-title h1 {
 		width: 339px;
 		height: inherit;
+		padding-right: 10px;
 		margin: 0px 0px 0px 0px;
 		color: #151515;
 	}
