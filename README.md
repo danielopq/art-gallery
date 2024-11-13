@@ -10,9 +10,9 @@
 
 ## Overview
 
-Developed a fully responsive frontend for an art gallery website, designed to deliver a seamless experience across a variety of devices. To achieve fluid layout transitions, I implemented CSS Grid templates, optimizing content flow and alignment for desktops, tablets, and mobile screens. Each element's position and style were meticulously crafted to align with the provided design mockups, ensuring an accurate visual representation.
+Developed a fully responsive frontend for an art gallery website, tailored to deliver a seamless experience across a variety of devices. I utilized the mix-blend-mode CSS property to create visually appealing blending effects, adding depth and artistry to the design. To ensure fluid layout transitions, I implemented CSS Grid templates, optimizing content flow and alignment for desktops, tablets, and mobile screens. Each element’s position and styling were meticulously crafted to match the provided design mockups, ensuring an accurate and visually engaging representation.
 
-This project was built from the ground up using HTML, and CSS, without relying on frameworks, to maintain complete control over the codebase and optimize performance.
+This project was built from the ground up using only HTML and CSS, without relying on frameworks, to maintain complete control over the codebase and optimize for performance.
 
 ### Screenshot
 

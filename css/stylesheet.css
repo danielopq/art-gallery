@@ -44,11 +44,27 @@ h4 {
 	font: 300 18px/28px 'Outfit';
 }
 .button {
+	width: 260px;
 	height: 72px;
 	display: flex;
 	color: white;
 	font: 900 20px/72px 'BigShouldersDisplay';
+	letter-spacing: 3.64px;
 	text-align: center;
+}
+
+.button-text {
+	width: 204px;
+	height: inherit;
+	background-color: #151515;
+	transition: background-color 0.3s ease;
+}
+.button-icon {
+	width: 56px;
+	height: inherit;
+	background: center/8px 24px no-repeat;
+	background-color: #D5966C;
+	transition: background-color 0.3s ease;
 }
 
 @media(hover:hover){
@@ -61,18 +77,6 @@ h4 {
 	.button:hover .button-icon {
 		background-color: #151515;
 	}
-}
-
-.button-text {
-	width: 100%;
-	height: inherit;
-	letter-spacing: 3.64px;
-	background-color: #151515;
-}
-.button-icon {
-	width: 56px;
-	height: inherit;
-	background: #D5966C center/8px 24px no-repeat;
 }
 /*################################### FOOTER ###################################*/
 footer {
