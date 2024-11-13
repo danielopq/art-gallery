@@ -51,7 +51,7 @@ h1 {
 	font: 900 96px/88px 'BigShouldersDisplay-Black';
 }
 h2 {
-	font: 800 60px/60px 'BigShouldersDisplay-ExtraBold';
+	font: 800 60px/60px 'BigShouldersDisplay-Black';
 }
 
 h3 {
@@ -132,6 +132,9 @@ footer > * {
 }
 .media-icon {
 	cursor: pointer;
+}
+#twitter{
+	padding-top: 2px;
 }
 /*############################################################################*/
 /*############################## TABLET VERSION ##############################*/
