@@ -1,10 +1,26 @@
 @charset "utf-8";
+
 @font-face {
 	font-family: 'BigShouldersDisplay';
 	src: url("../fonts/BigShouldersDisplay-Black.woff") format('woff');
 	font-style: bold;
 	font-weight: 900;
 }
+
+@font-face {
+	font-family: 'BigShouldersDisplay-ExtraBold';
+	src: url("../fonts/BigShouldersDisplay-ExtraBold.woff") format('woff');
+	font-style: bold;
+	font-weight: 800;
+}
+
+@font-face {
+	font-family: 'BigShouldersDisplay-Black';
+	src: url("../fonts/BigShouldersDisplay-Black.woff") format('woff');
+	font-style: bold;
+	font-weight: 900;
+}
+
 @font-face {
 	font-family: 'Outfit';
 	src: url("../fonts/Outfit-Light.woff") format('woff');
@@ -25,13 +41,17 @@ body {
 	align-items: center;
 	justify-content: space-between;
 }
-h1 {
+
+h1,h2,h3,h4,p{
 	padding: 0px;
 	margin: 0px;
-	font: 900 96px/88px 'BigShouldersDisplay';
+}
+
+h1 {
+	font: 900 96px/88px 'BigShouldersDisplay-Black';
 }
 h2 {
-	font: 900 70px/70px 'BigShouldersDisplay';
+	font: 800 70px/70px 'BigShouldersDisplay-ExtraBold';
 }
 h3 {
 	font: 900 60px/60px 'BigShouldersDisplay';
@@ -50,7 +70,7 @@ h4 {
 	height: 72px;
 	display: flex;
 	color: white;
-	font: 900 20px/72px 'BigShouldersDisplay';
+	font: 800 20px/72px 'BigShouldersDisplay-ExtraBold';
 	letter-spacing: 3.64px;
 	text-align: center;
 }
@@ -120,10 +140,10 @@ footer > * {
 /*############################################################################*/
 @media (min-width: 768px) and (max-width: 1023px) {
 	h1 {
-		font: 900 70px/65px 'BigShouldersDisplay';
+		font: 900 70px/65px 'BigShouldersDisplay-Black';
 	}
 	h2 {
-		font: 900 55px/50px 'BigShouldersDisplay';
+		font: 900 60px/60px 'BigShouldersDisplay-Black';
 	}
 	h3 {
 		font: 900 50px/45px 'BigShouldersDisplay';
@@ -160,10 +180,10 @@ footer > * {
 /*############################################################################*/
 @media screen and (max-width:480px) {
 	h1 {
-		font: 900 60px/55px 'BigShouldersDisplay';
+		font: 900 60px/55px 'BigShouldersDisplay-Black';
 	}
 	h2 {
-		font: 900 50px/45px 'BigShouldersDisplay';
+		font: 900 50px/45px 'BigShouldersDisplay-Black';
 	}
 	h3 {
 		font: 900 50px/45px 'BigShouldersDisplay';
