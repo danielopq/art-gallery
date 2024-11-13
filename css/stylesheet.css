@@ -42,7 +42,7 @@ body {
 	justify-content: space-between;
 }
 
-h1,h2,h3,h4,p{
+h1,h2,h3,p{
 	padding: 0px;
 	margin: 0px;
 }
@@ -51,12 +51,10 @@ h1 {
 	font: 900 96px/88px 'BigShouldersDisplay-Black';
 }
 h2 {
-	font: 800 70px/70px 'BigShouldersDisplay-ExtraBold';
+	font: 800 60px/60px 'BigShouldersDisplay-ExtraBold';
 }
+
 h3 {
-	font: 900 60px/60px 'BigShouldersDisplay';
-}
-h4 {
 	font: 900 36px/36px 'BigShouldersDisplay';
 }
 .mainTextMedium {
@@ -146,9 +144,6 @@ footer > * {
 		font: 900 60px/60px 'BigShouldersDisplay-Black';
 	}
 	h3 {
-		font: 900 50px/45px 'BigShouldersDisplay';
-	}
-	h4 {
 		font: 900 32px/32px 'BigShouldersDisplay';
 	}
 	.mainTextMedium {
@@ -186,9 +181,6 @@ footer > * {
 		font: 900 50px/45px 'BigShouldersDisplay-Black';
 	}
 	h3 {
-		font: 900 50px/45px 'BigShouldersDisplay';
-	}
-	h4 {
 		font: 900 32px/32px 'BigShouldersDisplay';
 	}
 	.mainTextMedium {
