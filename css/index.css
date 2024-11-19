@@ -1,4 +1,5 @@
 @charset "utf-8";
+
 /*################################### HEADER ###################################*/
 header {
 	width: 1440px;
@@ -6,15 +7,18 @@ header {
 	display: flex;
 	background: url("../images/desktop/image-hero.jpg") 450px 0px/540px no-repeat;
 }
-header > div {
+
+header>div {
 	height: inherit;
 	padding-top: 189px;
 }
+
 #header-title {
 	width: 450px;
 	background-color: #151515;
 	mix-blend-mode: difference;
 }
+
 #header-title h1 {
 	width: 514px;
 	height: 176px;
@@ -22,6 +26,7 @@ header > div {
 	margin-left: 165px;
 	color: white;
 }
+
 #header-mainContent {
 	width: 350px;
 	display: flex;
@@ -30,95 +35,116 @@ header > div {
 	color: #444444;
 	margin-left: 475px;
 }
+
 #header-mainContent p {
 	width: 350px;
 	height: 160px;
 	margin: 0px;
 }
+
 #location-bt {
 	margin-top: 64px;
 	width: 260px;
 }
+
 #location-bt-arrow {
 	background-image: url("../images/icon-arrow-right.svg");
 }
+
 /*################################### MAIN ###################################*/
 main {
 	width: 1110px;
 	display: grid;
 	grid-template-columns: 445px 160px 445px;
 	grid-template-rows: 400px 313px 377px;
-	grid-template-areas: "yourDay pic01 pic01""pic02 pic02 pic03""pic02 pic02 come";
+	grid-template-areas: "yourDay pic01 pic01" "pic02 pic02 pic03" "pic02 pic02 come";
 	grid-gap: 30px;
 	margin-top: 180px;
 }
-main > div {
+
+main>div {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	text-align: left;
 }
+
 main p {
 	margin: 32px 0px 0px 0px;
 }
+
 main h2 {
 	margin: 0px;
 }
+
 #main-yourDay {
 	grid-area: yourDay;
 }
+
 #main-yourDay * {
 	width: 350px;
 }
+
 #main-yourDay h2 {
 	height: 120px;
 	color: #151515;
 	padding-right: 20px;
 }
+
 #main-yourDay p {
 	height: 128px;
 	color: #444444;
 }
+
 #main-pic01 {
 	grid-area: pic01;
 	background: url("../images/desktop/image-grid-1@2x.jpg") center/cover no-repeat;
 }
+
 #main-pic02 {
 	grid-area: pic02;
 	background: url("../images/desktop/image-grid-2@2x.jpg") center/cover no-repeat;
 }
+
 #main-pic03 {
 	grid-area: pic03;
 	background-image: url("../images/desktop/image-grid-3.jpg");
 }
+
 #main-come {
 	grid-area: come;
 	align-items: center;
 	background-color: #151515;
 	color: white;
 }
+
 #main-come * {
 	width: 350px;
 }
+
 #main-come h2 {
 	height: 120px;
 }
+
 #main-come p {
 	height: 96px;
 }
+
 /*################################### FOOTER ###################################*/
 footer {
 	background-color: #151515;
 	margin-top: 180px;
 }
+
 #footer-logo {
 	background: url("../images/logo-light.svg") 0% 0%/160px no-repeat;
 }
+
 #footer-text {
 	color: white;
 }
 
-@media(hover:hover){
+@media(hover:hover) {
 	.media-icon:hover path {
 		fill: #D5966C;
 	}
@@ -129,6 +155,7 @@ footer {
 /*############################################################################*/
 
 @media (min-width: 768px) and (max-width: 1023px) {
+
 	/*------------------------ HEADER ------------------------*/
 	header {
 		width: 100vw;
@@ -137,15 +164,18 @@ footer {
 		background: url("../images/tablet/image-hero.jpg") 0%/437px no-repeat;
 		padding: 145px 0px 0px 389px;
 	}
-	header > div {
+
+	header>div {
 		padding-top: 0px;
 		width: 339px !important;
 	}
+
 	#header-title {
 		height: 130px;
 		background-color: transparent;
 		mix-blend-mode: normal;
 	}
+
 	#header-title h1 {
 		width: 339px;
 		height: inherit;
@@ -153,76 +183,70 @@ footer {
 		margin: 0px 0px 0px 0px;
 		color: #151515;
 	}
+
 	#header-mainContent {
 		height: 232px;
 		margin: 0px;
 	}
+
 	#header-mainContent p {
 		width: inherit;
 		height: 112px;
 		margin: 48px 0px 0px 0px;
 	}
+
 	#location-bt {
 		margin-top: 48px;
 	}
+
 	/*------------------------ MAIN ------------------------*/
 	main {
-		grid-template-columns: 280px 118px 280px;
+		width: 689px;
+		grid-template-columns: 280px 107px 280px;
 		grid-template-rows: 400px 313px 396px;
-		grid-template-areas: "yourDay pic01 pic01""pic02 pic02 pic03""pic02 pic02 come";
 		grid-gap: 11px;
 		margin-top: 120px;
 	}
-	
-	main p {
-		margin: 32px 0px 0px 0px;
-	}
-	#main-yourDay{
-		margin-top: 36px;
-		justify-content: flex-start;
-	}
+
 	#main-yourDay * {
 		width: 223px;
 	}
+
 	#main-yourDay h2 {
 		height: 135px;
-		padding-right: 40px;
-		margin: 0px 0px 0px 0px;
 	}
+
 	#main-yourDay p {
-		height: 128px;
-		margin: 24px 0px 0px 0px;
+		height: 140px;
 	}
-	#main-pic01 {
-		background: url("../images/tablet/image-grid-1.jpg") center/cover no-repeat;
-	}
-	#main-pic02 {
-		background: url("../images/tablet/image-grid-2.jpg") center/cover no-repeat;
-	}
-	#main-pic03 {
-		background-image: url("../images/tablet/image-grid-3.jpg");
-	}
-	#main-come {
-		justify-content: center;
-	}
+
 	#main-come * {
 		width: 223px;
 	}
+
 	#main-come h2 {
 		height: 90px;
 	}
+
 	#main-come p {
 		height: 112px;
 	}
-	/*------------------ FOOTER ------------------*/
+
+	/*------------------------ FOOTER ------------------------*/
+	footer {
+		margin-top: 120px;
+	}
+
 	#footer-logo {
-		background: url("../images/logo-light.svg") 0% 0%/110px 40px no-repeat !important;
+		background: url("../images/logo-light.svg") 0% 0%/110px no-repeat;
 	}
 }
+
 /*############################################################################*/
 /*############################## MOBILE VERSION ##############################*/
 /*############################################################################*/
 @media screen and (max-width:480px) {
+
 	/*------------------------ HEADER ------------------------*/
 	header {
 		width: 100vw;
@@ -230,82 +254,101 @@ footer {
 		flex-direction: column;
 		background: url("../images/mobile/image-hero.jpg")top/375px no-repeat;
 	}
-	header > div {
+
+	header>div {
 		width: 343px !important;
 		padding-top: 0px;
 		margin-left: auto;
 	}
+
 	#header-title {
 		height: 110px;
 		background-color: white;
 		margin: 272px auto 0px;
 	}
+
 	#header-title h1 {
 		width: inherit;
 		height: inherit;
 		margin: 0px;
 		color: black;
 	}
+
 	#header-mainContent {
 		height: 216px;
 		margin: 32px auto 0px;
 	}
+
 	#header-mainContent p {
 		width: inherit;
 		height: 112px;
 	}
+
 	#location-bt {
 		margin-top: 32px;
 	}
+
 	/*------------------------ MAIN ------------------------*/
 	main {
 		display: grid;
 		grid-template-columns: 343px;
 		grid-template-rows: 320px 223px 480px 200px 293px;
-		grid-template-areas: "pic01""yourDay""pic02""pic03""come";
+		grid-template-areas: "pic01" "yourDay" "pic02" "pic03" "come";
 		grid-gap: 32px;
 		margin-top: 120px;
 	}
+
 	main p {
 		margin: 21px 0px 0px 0px;
 	}
+
 	#main-yourDay * {
 		width: 343px;
 	}
+
 	#main-yourDay h2 {
 		height: 90px;
 		padding-right: 60px;
 	}
+
 	#main-yourDay p {
 		height: 112px;
 		font: 300 18px/28px 'Outfit';
 		padding-right: 30px;
 	}
+
 	#main-pic01 {
 		background: url("../images/mobile/image-grid-1.jpg") center/343px no-repeat;
 	}
+
 	#main-pic02 {
 		background: url("../images/mobile/image-grid-2@2x.jpg") center/480px no-repeat;
 	}
+
 	#main-pic03 {
 		background-image: url("../images/mobile/image-grid-3.jpg");
 	}
+
 	#main-come {
 		align-items: center;
 		background-color: #151515;
 		color: white;
 	}
+
 	#main-come * {
 		width: 295px;
 	}
+
 	#main-come h2 {
 		height: 90px;
 		margin: 0px;
 	}
+
 	#main-come p {
 		height: 84px;
 		margin: 24px 0px 0px 0px;
 	}
+
 	/*------------------------ FOOTER ------------------------*/
 	#footer-logo {
 		background: url("../images/logo-light.svg") left/110px 40px no-repeat !important;
