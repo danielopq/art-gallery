@@ -290,6 +290,7 @@ footer {
 
 	/*------------------------ MAIN ------------------------*/
 	main {
+		width: 343px;
 		display: grid;
 		grid-template-columns: 343px;
 		grid-template-rows: 320px 223px 480px 200px 293px;
